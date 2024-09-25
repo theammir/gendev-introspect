@@ -9,7 +9,7 @@ JavaScript                                                                      
 # ✨ Features
 * ## 🦀 Utilizes Rust's type safety
   <sub>we're going to convert these to JS Objects anyway, so, uh, speaking of which,</sub>
-* ## 💠 Compiled into a Node.js native addon, powered by [napi](https://napi.rs)
+* ## 💠 Compiles into a Node.js native addon, powered by [napi](https://napi.rs)
   Just so you can use it on actual JavaScript functions, the ones you were so cruel to convert into plain text.
 * ## My code is not _that_ scary
 
