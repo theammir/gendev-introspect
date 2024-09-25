@@ -1,0 +1,15 @@
+[package]
+name = "bad_introspect"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+napi = "2.16.11"
+napi-derive = "2.16.12"
+regex = "1.10.6"
+
+[build-dependencies]
+napi-build = "1"

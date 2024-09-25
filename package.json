@@ -1,0 +1,10 @@
+{
+  "package": "bad-introspect",
+  "devDependencies": {
+    "@napi-rs/cli": "^2.18.4"
+  },
+  "scripts": {
+    "build": "rm -rf ./js_project/introspect && napi build --release ./js_project/introspect",
+    "build:debug": "rm -rf ./js_project/introspect && napi build ./js_project/introspect"
+  }
+}
