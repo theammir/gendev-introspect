@@ -17,10 +17,10 @@ const kill_me = (
   // Example: comment1
   // Returns: comment2
 ) => {
-
+  console.log(arg1_name, arg2);
 };
 
-const obj = introspect(kill_me);
-console.dir(obj);
+const signature = introspect(kill_me);
+console.dir(signature);
 
 // vim: ts=2 sts=2 sw=2 et:

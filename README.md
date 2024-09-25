@@ -8,7 +8,7 @@ JavaScript                                                                      
 
 # ✨ Features
 * ## 🦀 Utilizes Rust's type safety
-  <sub>we're going to compile these to JS Objects anyway, so, uh, speaking of which,</sub>
+  <sub>we're going to convert these to JS Objects anyway, so, uh, speaking of which,</sub>
 * ## 💠 Compiled into a Node.js native addon, powered by [napi](https://napi.rs)
   Just so you can use it on actual JavaScript functions, the ones you were so cruel to convert into plain text.
 * ## My code is not _that_ scary
@@ -16,6 +16,7 @@ JavaScript                                                                      
 # Usage
 The library can be built with
 ```bash
+npm i
 npm run build
 ```
 For the sake of example, the binary is moved to `js_project` folder, where `index.js` can be executed.
