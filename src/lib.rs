@@ -114,9 +114,7 @@ pub fn try_parse_fn_parameter(line: &str) -> Option<FnParameter> {
 /// the last lines are discarded)
 /// Returns `None` if unable to parse into FnSignature
 pub fn introspect_plain(fn_text: String) -> Option<FnSignature> {
-    let mut signature = FnSignature {
-        ..Default::default()
-    };
+    let mut signature = FnSignature::default();
 
     let mut lines: Vec<&str> = fn_text
         .trim()
